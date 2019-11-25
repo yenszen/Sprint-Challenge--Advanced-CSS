@@ -123,4 +123,42 @@
       }
     }
   }
+
+  form {
+    .flex(column, space-evenly, center);
+
+    #sub-plan {
+      .size(35%; 5rem; 2rem);
+      .button(#22283A; white; 8px);
+      margin: 1rem 0;
+    }
+
+    .user-info {
+      .flex(row, space-evenly, center);
+      width: 100%;
+      margin: 1rem 0;
+
+      input[type="text"] {
+        .size(30%; 4rem; 1.5rem);
+        .button(#22283A; white; 8px);
+        padding-left: 1em;
+
+        &::placeholder {
+          color: white;
+        }
+      }
+    }
+
+    textarea {
+      .button(#22283A; white; 20px);
+      padding-left: 1em;
+      padding-top: 0.5em;
+      margin: 1rem 0 1.5rem;
+
+      &::placeholder {
+        color: white;
+      }
+    }
+  }
+
 }// home

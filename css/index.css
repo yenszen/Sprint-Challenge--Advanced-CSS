@@ -314,3 +314,49 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home form #sub-plan {
+  width: 35%;
+  height: 5rem;
+  font-size: 2rem;
+  background-color: #22283A;
+  color: white;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+.home form .user-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+.home form .user-info input[type="text"] {
+  width: 30%;
+  height: 4rem;
+  font-size: 1.5rem;
+  background-color: #22283A;
+  color: white;
+  border-radius: 8px;
+  padding-left: 1em;
+}
+.home form .user-info input[type="text"]::placeholder {
+  color: white;
+}
+.home form textarea {
+  background-color: #22283A;
+  color: white;
+  border-radius: 20px;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  margin: 1rem 0 1.5rem;
+}
+.home form textarea::placeholder {
+  color: white;
+}

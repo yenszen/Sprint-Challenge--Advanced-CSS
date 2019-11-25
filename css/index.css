@@ -380,6 +380,7 @@ footer {
 }
 .home form .user-info input[type="text"]::placeholder {
   color: white;
+  opacity: 0.85;
 }
 .home form textarea {
   background-color: #22283A;
@@ -391,4 +392,14 @@ footer {
 }
 .home form textarea::placeholder {
   color: white;
+  opacity: 0.85;
+}
+.home form input[type="submit"] {
+  background-color: #22283A;
+  color: white;
+  border-radius: 20px;
+  width: 35%;
+  height: 4rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }

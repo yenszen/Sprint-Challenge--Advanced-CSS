@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website has distinct layouts for select screen sizes. For example, an adaptive website would be designed for each of an iPhone, an iPad and a Macbook according to their dimensions. On the other hand, responsive websites are designed such that it adapts to the screen regardless of the target screen sizes. Therefore, it utilises CSS media queries to make its design fluid, hence being able to resize its layouts to adapt to different screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile first approach to web design is to build the initial/base version of the website intended for mobile devices, and to scale up its layouts to adhere to larger screen sizes such as tablets and desktops. On the other hand, a desktop first approach would do the designs from the opposite direction by designing its base version with the desktop in mind, and scaling layouts downwards into smaller devices.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Due to the fact that the default font-size in most web browsers is 16px, a font-size of 62.5% in the html tag would reset to 10px, which makes it easier for calculations when using rem units since 10 is an easy number to convert into other numbers.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is the act of processing inputs into outputs that are used as inputs in another program in turn. Therefore, a CSS preprocessor will compile and transfer the code written in said preprocessor into code that is readable and of the correct syntax as input in the respective CSS file.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favourite concept in preprocessing is parametric mixins, because it makes styling a specific html element much easier and flexible by only needing to include the mixin in the styling for the specific html element, while being able to switch the styles for all elements containing said mixin in one go. However, this is also the concept giving me the most trouble at the moment, as I am struggling with introducing CSS animations through parametric mixins due to my unfamiliarity with its syntax.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

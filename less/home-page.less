@@ -1,6 +1,6 @@
 // Home Content
 .header-div {
-  .flex(column, space-evenly, center);
+  .flex(column; space-evenly; center);
   height: 10rem;
   background-color: lighten(lightgrey, 10%);
 }
@@ -67,8 +67,16 @@
         margin-bottom: 26px;
       }
 
-      // .btn {
-      // }
+      .btn {
+        .button(#22283A; white; 8px);
+        .flex(row; center; center);
+        .size(30%; 3.5rem; 2rem);
+
+        &:hover {
+          background-color: white;
+          color: #22283A;
+        }
+      }
     }
 
     .walk-img {

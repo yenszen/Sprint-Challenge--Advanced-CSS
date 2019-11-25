@@ -1,7 +1,19 @@
 // Mixins Here
-.flex(@direction, @justify, @align-items) {
+.flex(@direction; @justify; @align-items) {
     display: flex;
     flex-direction: @direction;
     justify-content: @justify;
     align-items: @align-items;
+}
+
+.size(@width; @height; @font) {
+    width: @width;
+    height: @height;
+    font-size: @font;
+}
+
+.button(@bg-color; @color; @radius) {
+    background-color: @bg-color;
+    color: @color;
+    border-radius: @radius;
 }

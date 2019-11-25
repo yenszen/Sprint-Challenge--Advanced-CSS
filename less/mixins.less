@@ -17,3 +17,11 @@
     color: @color;
     border-radius: @radius;
 }
+
+.keyframes(@name; @arguments) {
+	@keyframes @name { @arguments(); }
+};
+
+.animation(@arguments) {
+	animation: @arguments;
+}
